@@ -21,7 +21,7 @@
 This is an actively updated list of practical guide resources for Medical Large Language Models (Medical LLMs). 
 It's based on our survey paper: 
 
-> [A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges](https://arxiv.org/abs/2311.05112)
+> [A Survey of Large Language Models in Medicine: Progress, Application, and Challenge](https://arxiv.org/abs/2311.05112)
 
 > *Hongjian Zhou<sup>1,\*</sup>, Fenglin Liu<sup>1,\*</sup>, Boyang Gu<sup>2,\*</sup>, Xinyu Zou<sup>3,\*</sup>, Jinfa Huang<sup>4,\*</sup>, Jinge Wu<sup>5</sup>, Yiru Li<sup>6</sup>, Sam S. Chen<sup>7</sup>, Peilin Zhou<sup>8</sup>, Junling Liu<sup>9</sup>, Yining Hua<sup>10</sup>,
 Chengfeng Mao<sup>11</sup>, Chenyu You<sup>12</sup>, Xian Wu<sup>13</sup>, Yefeng Zheng<sup>13</sup>, Lei Clifton<sup>1</sup>,
@@ -34,6 +34,9 @@ David A. Clifton<sup>1,†</sup>.* (\*Core Contributors, †Corresponding Author
 <sup>9</sup>Alibaba, <sup>10</sup>Harvard T.H. Chan School of Public Health, <sup>11</sup>MIT, <sup>12</sup>Yale University, <sup>13</sup>Tencent, <sup>14</sup>Amazon*
 
 ##  📣 Update News
+
+`[2024-03-03]` We have updated our [Version 4](https://arxiv.org/abs/2311.05112). Please check it out!
+
 `[2024-02-04]` 🍻🍻🍻 Cheers, Happy Chinese New Year! We have updated our [Version 3](https://arxiv.org/abs/2311.05112). Please check it out!
 
 `[2024-01-08]` 🍻🍻🍻 Cheers, Happy New Year! Our GitHub repository has reached over 300 stars<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AI-in-Health/MedLLMsPracticalGuide?logoColor=%23C8A2C8&color=%23DCC6E0">. We have updated the Medical LLM trees and evolution map. Stay tuned for Version 3, coming soon! 
@@ -334,6 +337,10 @@ This survey aims to provide insights into the opportunities and challenges of LL
 
 ## ✨ Practical Guide for Clinical Applications
 
+<div align=center>
+<img src="img/Medical_LLM_Application.png" width="800px">
+</div>
+
 ### Retrieval-augmented Generation
 * [**Arxiv, 2023**] Think and Retrieval: A Hypothesis Knowledge Graph Enhanced Medical Large Language Models. [paper](https://arxiv.org/pdf/2312.15883.pdf)
 * [**JASN, 2023**] Retrieve, Summarize, and Verify: How Will ChatGPT Affect Information Seeking from the Medical Literature? [paper](https://journals.lww.com/jasn/fulltext/2023/08000/retrieve,_summarize,_and_verify__how_will_chatgpt.4.aspx)
@@ -389,10 +396,14 @@ This survey aims to provide insights into the opportunities and challenges of LL
 
 ## ⚔️ Practical Guide for Challenges
 
+<div align=center>
+<img src="img/Medical_LLM_Challenge.png" width="800px">
+</div>
+
 ### Hallucination
 * [**ICLR Submission, 2024**] Chain-of-verification reduces hallucination in large language models. [paper](https://arxiv.org/abs/2309.11495)
 * [**ACM Computing Surveys, 2023**] Survey of hallucination in natural language generation. [paper](https://dl.acm.org/doi/abs/10.1145/3571730)
-*[**EMNLP, 2023**] Med-halt: Medical domain hallucination test for large language models. [paper](https://arxiv.org/abs/2307.15343)
+* [**EMNLP, 2023**] Med-halt: Medical domain hallucination test for large language models. [paper](https://arxiv.org/abs/2307.15343)
 * [**Arxiv, 2023**] A survey of hallucination in large foundation models. 2023. [paper](https://arxiv.org/abs/2309.05922) [code](https://github.com/vr25/hallucination-foundation-model-survey)
 * [**EMNLP, 2023**] Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models. 2023. [paper](https://arxiv.org/abs/2303.08896)
 * [**EMNLP Findings, 2021**] Retrieval augmentation reduces hallucination in conversation. 2021. [paper](https://arxiv.org/abs/2104.07567)
@@ -430,6 +441,10 @@ This survey aims to provide insights into the opportunities and challenges of LL
 * [**Nature News, 2023.1**] ChatGPT listed as author on research papers: many scientists disapprove. [paper](https://ui.adsabs.harvard.edu/abs/2023Natur.613..620S/abstract)
 
 ## 🚀 Practical Guide for Future Directions
+
+<div align=center>
+<img src="img/Medical_LLM_Future.png" width="800px">
+</div>
 
 ### Introduction of New Benchmarks
 * [**Arxiv, 2023.12**] Designing Guiding Principles for NLP for Healthcare: A Case Study of Maternal Health. [paper](https://arxiv.org/abs/2312.11803)
@@ -473,7 +488,7 @@ Please consider citing 📑 our papers if our repository is helpful to your work
 
 ```bibtex
 @article{zhou2023survey,
-  title={A Survey of Large Language Models in Medicine: Principles, Applications, and Challenges},
+  title={A Survey of Large Language Models in Medicine: Progress, Application, and Challenge},
   author={Hongjian Zhou, Fenglin Liu, Boyang Gu, Xinyu Zou, Jinfa Huang, Jinge Wu, Yiru Li, Sam S. Chen, Peilin Zhou, Junling Liu, Yining Hua, Chengfeng Mao, Xian Wu, Yefeng Zheng, Lei Clifton, Zheng Li, Jiebo Luo, David A. Clifton},
   journal={arXiv preprint arXiv:2311.05112},
   year={2023}
